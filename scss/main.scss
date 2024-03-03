@@ -5,6 +5,14 @@
 
 //EsTE ARCHIVO CONTIENE MI MENU PRINCIAL
 
+ //reset
+ @import './reset/reset';
+ @import './reset/layout';
+
+//estructura
 @import 'header';
 @import 'principal';
-@import 'footer'
+@import 'footer';
+
+//media queries
+
