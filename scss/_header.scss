@@ -1,46 +1,47 @@
 // aqui va todo lo de main
 
-.menu{
+/* header*/ 
+
+// Nexting
+.menu {
     background-image: url('../asset/bg_principal.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: initial;
     z-index: 1;
     grid-area: header;
-
-    &__conteiner--logo{
-    
-        height: 5rem;
-        width: 0;
-        margin: 10px 10px 10px 10px;    
+  
+    &__conteiner--logo {
+      height: 5rem;
+      margin: 10px 10px 10px 10px;
     }
-    &__conteiner--boton{
-        background-color: $color-boton;
-        display: inline-block; 
-        li{
-            list-style: none;
-            margin-bottom: 0rem;
-            display: inline-block;
-            a{
-                color: $color-text;
-                text-decoration: none;
-                font-weight: bold;
-            }
-        }  
+  
+    &__conteiner--boton {
+      background-color: #b6b5b5b0;
+      display: inline-block;
+  
+      li {
+        list-style: none;
+        margin-bottom: 0rem;
+        display: inline-block;
+  
+        a {
+          color: #000000;
+          text-decoration: none;
+          font-weight: bold;
+        }
+      }
     }
-    &__container--tittle{
-        font-family: 'cartel';
-        font-weight: 200px;
-        color: $color-tittle;
-        font-size: 3rem;
-        text-align: center;
-        background-color:$color-bgtittle;
-        margin-bottom: 0rem;     
+  
+    &__container--tittle {
+      font-family: 'cartel';
+      font-weight: 200px;
+      color: #c3bef7;
+      font-size: 3rem;
+      text-align: center;
+      background-color: #f5f5f5;
+      margin-bottom: 0rem;
     }
-}
+  }
 
-
-
-
-
-
+  

@@ -1,18 +1,28 @@
 /* footer*/
-.footProp{
-    background-color:#ae7f42e2;
+/
+// Nexting
+.footProp {
+    background-color: #ae7f42e2;
     grid-area: footer;
-}
-.footProp__img{
-    width: 100px;
-    flex-flow: row;
-    justify-content: end;
-}
-.footProp__link ul{
-    list-style: none;
-}
-.footProp__link ul li a {
-    color: black; 
-    text-decoration: none;
-    font-weight: bold;
-}
+  
+    &__img {
+      width: 100px;
+      flex-flow: row;
+      justify-content: end;
+    }
+  
+    &__link {
+      ul {
+        list-style: none;
+  
+        li {
+          a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  
