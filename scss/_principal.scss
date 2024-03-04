@@ -9,7 +9,7 @@
 
 .carousel-item {
     img {
-      height: 30rem;
+      @include sizes(0rem, 30rem);
       object-fit: cover;
     }
   }
@@ -37,7 +37,7 @@
 
         &__container-pic {
             border: 1px solid #000000;
-            width: 15rem;
+            @include sizes(15rem, 0rem);
             display: flex;
             flex-flow: wrap;
             justify-content: space-around;
@@ -54,7 +54,7 @@
   
   .imgPpal {
     &__pic {
-      width: 100%;
+      @include sizes(100%, 0%);  
       margin-top: 0rem;
       margin-bottom: 1rem;
     }

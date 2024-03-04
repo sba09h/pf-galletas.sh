@@ -14,7 +14,7 @@
     &__p--main {
       font-weight: 400px;
       text-align: justify;
-      width: 100%;
+      @include sizes(100%, 0%);
       border: 1px solid #000000;
       margin-left: 1rem;
       margin-right: 1rem;
@@ -23,7 +23,7 @@
   
     &__pic {
       border: 1px solid #000000;
-      width: 15rem;
+      @include sizes(15rem, 0%);
       display: flex;
       flex-flow: wrap;
       justify-content: space-around;
