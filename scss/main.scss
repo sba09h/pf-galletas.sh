@@ -6,7 +6,11 @@
 //EsTE ARCHIVO CONTIENE MI MENU PRINCIAL
 
  //reset
+ @import './reset/vars';
  @import './reset/reset';
+ 
+ @import './reset/mixin';
+ 
  @import './reset/layout';
 
 //estructura

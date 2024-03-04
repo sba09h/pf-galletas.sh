@@ -1,0 +1,13 @@
+//ejemplos
+
+//
+@mixin sizes($w, $h){
+    width: $w;
+    height: $h;
+}
+
+@mixin column-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

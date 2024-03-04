@@ -82,7 +82,7 @@ amarillo: #ffeaae
     filter: invert(1); 
 }
 .carousel-control-prev, .carousel-control-next {
-    color: white; 
+    color: #ffffff; 
 }
 
 /*main pages*/

@@ -1,1 +1,36 @@
 // aqui va todo codigo main
+
+/*main pages*/
+.gal-container{
+    display: flex;
+    flex-flow: wrap; 
+    justify-content: space-around;  
+    border-radius: 1rem solid #000000;
+}
+.gal-pic{
+    border: 1px solid #000000;
+    width: 15rem;
+    display: flex;
+    flex-flow: wrap; 
+    justify-content: space-around;
+    
+}
+.local-pic{
+    border: 1px solid #000000;
+    width: 15rem;
+    margin: 1rem 0rem 1rem 2rem;
+}
+.local-text{
+    margin-left: 5rem;
+}
+.titulo-gal{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+.imgPpal__pic{
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    
+}
