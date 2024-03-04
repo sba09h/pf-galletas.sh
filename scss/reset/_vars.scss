@@ -23,3 +23,25 @@ $size-tittle:(
         font-size: $size;
     }
 }
+
+$redes-sociales:(
+    instagram: #e11bacce,
+    facebook:#321be1ce,
+    whatsapp:#0ec943ce
+);
+
+
+@each $rrss, $color in $redes-sociales{
+    .bi-#{$rrss}{
+        background-color: $color;
+        &:hover{
+            box-shadow: 10px 10px 10px $color;
+        }
+    }
+}
+
+
+
+
+
+
