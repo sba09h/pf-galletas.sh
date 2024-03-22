@@ -5,61 +5,50 @@
     grid-area: main;
     margin-bottom: 1rem;
 }
-
-
 .carousel-item {
-    img {
-      @include sizes(0rem, 30rem);
-      object-fit: cover;
-    }
+  img {
+    @include sizes(0rem, 30rem);
+    object-fit: cover;
+  }
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+  }
+.carousel-control-prev,
+.carousel-control-next {
+  color: #ffffff;
   }
   
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    filter: invert(1);
-  }
-  
-  .carousel-control-prev,
-  .carousel-control-next {
-    color: #ffffff;
-  }
-  
-
 /*main pages*/ // Nexting
 .gal{
-    
+  &-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    border-radius: 1rem solid #000000;
 
-    &-container {
-        display: flex;
-        flex-flow: wrap;
-        justify-content: space-around;
-        border-radius: 1rem solid #000000;
-
-        &__container-pic {
-            border: 1px solid #000000;
-            @include sizes(15rem, 0rem);
-            display: flex;
-            flex-flow: wrap;
-            justify-content: space-around;
-            }  
-    }  
+    &__container-pic {
+      border: 1px solid #000000;
+      @include sizes(15rem, 0rem);
+      display: flex;
+      flex-flow: wrap;
+      justify-content: space-around;
+      }  
+}    
 }
 .titulo-gal {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 100;
-    }
-
-
-  
-  .imgPpal {
-    &__pic {
-      @include sizes(100%, 0%);  
-      margin-top: 0rem;
-      margin-bottom: 1rem;
-    }
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
   }
-
+.imgPpal {
+  &__pic {
+    @include sizes(100%, 0%);  
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+  }
 /* main galeria
 
 

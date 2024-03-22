@@ -7,30 +7,23 @@ $color-tittle:#c3bef7;
 $color-bgtittle: #f5f5f5;
 $color-caruosel:#ffffff;
 
-
 //mapas
 //map-get
-
 $size-tittle:(
     tittle-prin: 20rem,
     tittle-sec: 16rem,
     tittle-ter: 10rem
 );
-
-
 @each $tittle, $size in $size-tittle{
     .sb#{$tittle}{
         font-size: $size;
     }
 }
-
 $redes-sociales:(
     instagram: #e11bacce,
     facebook:#321be1ce,
     whatsapp:#0ec943ce
 );
-
-
 @each $rrss, $color in $redes-sociales{
     .bi-#{$rrss}{
         background-color: $color;

@@ -5,7 +5,6 @@
     width: $w;
     height: $h;
 }
-
 @mixin column-center{
     display: flex;
     flex-direction: row;

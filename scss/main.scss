@@ -4,24 +4,17 @@
 
 
 //EsTE ARCHIVO CONTIENE MI MENU PRINCIAL
-
- //reset
- @import './reset/vars';
- @import './reset/reset';
- 
- @import './reset/mixin';
- 
- @import './reset/layout';
-
+//reset
+@import './reset/vars';
+@import './reset/reset';
+@import './reset/mixin';
+@import './reset/layout';
 //estructura
 @import 'header';
 @import 'principal';
 @import 'footer';
-
 //media queries desktop first
-
 // Contenido anterior en css
-
 @media (max-width: 720px) {
     .grid-container {
       grid-template-columns: repeat(2, 1fr);
@@ -44,14 +37,14 @@
     }
   }
   
-  @media (max-width: 320px) {
+@media (max-width: 320px) {
     .grid-container {
       grid-template-columns: 1fr;
       grid-template-areas:
-        "header"
-        "main"
-        "section"
-        "footer";
+      "header header"
+      "main main"
+      "section section"
+      "footer footer";
     }
     .title {
       width: 100%;

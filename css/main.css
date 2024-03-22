@@ -1,29 +1,25 @@
 /* nota de css que si se ve */
+
 .sbtittle-prin {
   font-size: 20rem;
 }
-
 .sbtittle-sec {
   font-size: 16rem;
 }
-
 .sbtittle-ter {
   font-size: 10rem;
 }
-
 * {
   font-family: "Noto Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr, 2fr, 2fr, 0.3fr;
   grid-template-areas: "header header header header" "main    main    main  main" "section section section section" "footer footer footer footer";
 }
-
 .menu {
   background-image: url("../asset/bg_principal.jpg");
   background-repeat: no-repeat;
@@ -68,7 +64,6 @@
   justify-content: space-around;
   border-radius: 1rem solid #000000;
 }
-
 .gal-pic {
   border: 1px solid #000000;
   width: 15rem;
@@ -76,23 +71,19 @@
   flex-flow: wrap;
   justify-content: space-around;
 }
-
 .local-pic {
   border: 1px solid #000000;
   width: 15rem;
   margin: 1rem 0rem 1rem 2rem;
 }
-
 .local-text {
   margin-left: 5rem;
 }
-
 .titulo-gal {
   text-align: center;
   font-size: 2rem;
   font-weight: 100;
 }
-
 .imgPpal__pic {
   width: 100%;
   margin-top: 0rem;
@@ -104,21 +95,17 @@
   background-color: rgba(174, 127, 66, 0.8862745098);
   grid-area: footer;
 }
-
 .footProp__img {
   width: 100px;
   flex-flow: row;
   justify-content: end;
 }
-
 .footProp__link ul {
   list-style: none;
 }
-
 .footProp__link ul li a {
   color: black;
   text-decoration: none;
   font-weight: bold;
 }
-
 /*# sourceMappingURL=main.css.map */
