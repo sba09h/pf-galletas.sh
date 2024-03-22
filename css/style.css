@@ -3,21 +3,16 @@ violeta: #c3bef7
 verde claro: #e0d68a
 amarillo: #ffeaae
 */
-
-
 @font-face {
     font-family: 'cartel';
     src: url('../asset/stigmature.otf');
 }
-
-
 *{
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f5f5dc;
 }
-
 /* header*/ 
 .container{
     background-color:#f5f5dc ;
@@ -40,7 +35,6 @@ amarillo: #ffeaae
     text-decoration: none;
     font-weight: bold;
 }
-
 /* main*/
 .imgPpal{
     grid-area: main;
@@ -59,7 +53,6 @@ amarillo: #ffeaae
 .carousel-control-prev, .carousel-control-next {
     color: #ffffff; 
 }
-
 /*main pages*/
 .gal-container{
     display: flex;
@@ -72,8 +65,7 @@ amarillo: #ffeaae
     width: 15rem;
     display: flex;
     flex-flow: wrap; 
-    justify-content: space-around;
-    
+    justify-content: space-around;  
 }
 .local-pic{
     border: 1px solid #000000;
@@ -105,7 +97,6 @@ amarillo: #ffeaae
     width: 100%;
     height: 100%;
 }
-
 /* section*/
 .contenido{
     grid-area: section;
@@ -139,7 +130,7 @@ amarillo: #ffeaae
 }
 .card {
     width: 100%; 
-    /* max-width: 400px;/
+    max-width: 400px;
 }
 /* bs*/
 .sb-bt{
@@ -209,13 +200,8 @@ DESKTOP FIRST*/
         width: 100%;
     }
 }
-
-
 -------------------------------------------------------------------------
 
 ARCHIVO TRASPASADO
 
 ------------------------------------------------------------------------
-*/
-
-
